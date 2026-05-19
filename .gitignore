@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Local credentials and captured browser/session data. Never commit these.
+.env
+credentials.env
+auth_snapshot.json
+recordings/
+captured_raw.json
+analyzed.json
+organized.json
+generation_config.json
+
+# Local outputs from downloaded Aily artifacts.
+downloads/
+artifacts/

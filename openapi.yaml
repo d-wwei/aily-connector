@@ -1,0 +1,206 @@
+openapi: 3.1.0
+info:
+  title: "aily-connector"
+  version: "1.0.0"
+  description: "AnyWeb connector for Feishu Aily"
+servers:
+  - url: "https://aily.feishu.cn"
+paths:
+  /:
+    get:
+      operationId: "default"
+      summary: "自动纳入: 安全只读方法 (GET)"
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+  /ai/api/v1/bff/app/settings:
+    get:
+      operationId: "app-settings"
+      summary: "自动纳入: 安全只读方法 (GET)"
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+  /play/api/v1/admin/tenant_info:
+    get:
+      operationId: "admin-tenant_info"
+      summary: "自动纳入: 安全只读方法 (GET)"
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+  /play/api/v1/check_fg_access:
+    get:
+      operationId: "v1-check_fg_access"
+      summary: "自动纳入: 安全只读方法 (GET)"
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+  /play/api/v1/check/enterprise/knowledge:
+    get:
+      operationId: "enterprise-knowledge"
+      summary: "自动纳入: 安全只读方法 (GET)"
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+  /play/api/v1/tcc/config:
+    get:
+      operationId: "tcc-config"
+      summary: "自动纳入: 安全只读方法 (GET)"
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+  /play/api/v1/user/tenant_display/full_conf:
+    get:
+      operationId: "tenant_display-full_conf"
+      summary: "自动纳入: 安全只读方法 (GET)"
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+  /ai/api/v1/tenant/aily_releated_tenants:
+    get:
+      operationId: "tenant-aily_releated_tenants"
+      summary: "自动纳入: 安全只读方法 (GET)"
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+  /play/api/v1/placeholder:
+    get:
+      operationId: "v1-placeholder"
+      summary: "自动纳入: 安全只读方法 (GET)"
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+  /play/api/v1/trigger/list:
+    get:
+      operationId: "trigger-list"
+      summary: "自动纳入: 安全只读方法 (GET)"
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+  /play/api/v1/user/info:
+    get:
+      operationId: "user-info"
+      summary: "自动纳入: 安全只读方法 (GET)"
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+  /play/api/v1/bots/claim/status:
+    get:
+      operationId: "claim-status"
+      summary: "自动纳入: 安全只读方法 (GET)"
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+  /play/api/v1/ws/token:
+    get:
+      operationId: "ws-token"
+      summary: "自动纳入: 安全只读方法 (GET)"
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+  /play/api/v1/entitlement/user_entitlement:
+    get:
+      operationId: "entitlement-user_entitlement"
+      summary: "自动纳入: 安全只读方法 (GET)"
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+  /play/api/v1/speech_access_token:
+    get:
+      operationId: "v1-speech_access_token"
+      summary: "自动纳入: 安全只读方法 (GET)"
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+  /play/api/v1/templates/types:
+    get:
+      operationId: "templates-types"
+      summary: "自动纳入: 安全只读方法 (GET)"
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+  /play/api/v1/runtime_templates:
+    get:
+      operationId: "v1-runtime_templates"
+      summary: "自动纳入: 安全只读方法 (GET)"
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+  /play/api/v1/conversations:
+    get:
+      operationId: "v1-conversations"
+      summary: "自动纳入: 安全只读方法 (GET)"
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object

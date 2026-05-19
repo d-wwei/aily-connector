@@ -1,0 +1,17 @@
+name = "aily-connector"
+slug = "aily-connector"
+base_url = "https://aily.feishu.cn"
+site_alias = "aily"
+site_domain = "aily.feishu.cn"
+description = "AnyWeb connector for Feishu Aily"
+generated_at = "2026-05-19 16:04:49"
+generator = "anyweb-cli-generator"
+
+[runtime]
+query = "scripts/query.py"
+preflight = "scripts/preflight.py"
+credentials_file = "~/.aily_connector/credentials.env"
+
+[adapters]
+claude = "adapters/claude/SKILL.md"
+codex = "adapters/codex/SKILL.md"
